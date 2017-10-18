@@ -1,3 +1,3 @@
-FROM logstash:5.4
+FROM logstash:latest
 
 RUN logstash-plugin install logstash-filter-tld
